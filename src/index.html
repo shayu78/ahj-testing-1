@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Credit Card Validator</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <form action="" method="get" class="form">
+    <div class="card__logos">
+      <img height="40" data-payment="amex" class="logo" src="./img/american_express.png" alt="amex logo">
+      <img height="40" data-payment="diners" class="logo" src="./img/diners_club.png" alt="diners logo">
+      <img height="40" data-payment="discover" class="logo" src="./img/discover_curved.png" alt="discover logo">
+      <img height="40" data-payment="mastercard" class="logo" src="./img/mastercard_curved.png" alt="mastercard logo">
+      <img height="40" data-payment="mir" class="logo" src="./img/mir.png" alt="mir logo">
+      <img height="40" data-payment="jcb" class="logo" src="./img/pepsized_jcb.png" alt="jcb logo">
+      <img height="40" data-payment="visa" class="logo" src="./img/visa_curved.png" alt="visa logo">
+    </div>
+    <div class="form__elements">
+      <label for="number_input" class="card__number__label visually-hidden">Enter card number: </label>
+      <input type="text" name="number_input" id="number_input" class="card__number__input" placeholder="Enter card number..." minlength="13" maxlength="19" required>
+      <input type="submit" class="card__valid__button" value="Click to Validate">
+    </div>
+    <span class="card__validate__message"></span>
+  </form>
+</body>
+
+</html>

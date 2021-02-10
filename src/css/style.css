@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+body {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.form {
+  width: 500px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.logo {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  opacity: 0.2;
+}
+
+.active {
+  opacity: 1;
+}
+
+.card__number__input {
+  width: 220px;
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  outline: 0;
+  padding: 0 5px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.card__number__input:hover, .card__number__input:focus {
+  border: 1px solid #3d87e7;
+}
+
+.card__valid__button {
+  width: 135px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: #5eb462;
+  color: #ffffff;
+  outline: 0;
+  border: none;
+  font-size: 14px;
+}
+
+.card__valid__button:hover, .card__valid__button:focus {
+  background-color: #5ea462;
+}
+
+.card__validate__message {
+  color: #df3333;
+  height: 20px;
+}
