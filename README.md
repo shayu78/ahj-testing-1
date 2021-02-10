@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/9cqk9p0grf90lcku?svg=true)](https://ci.appveyor.com/project/shayu78/ahj-testing-1)
